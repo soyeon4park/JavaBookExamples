@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:key="interCall"
+        android:summary="resitrict international call due to expense"
+        android:title="Restrict international call" />
+
+    <CheckBoxPreference
+        android:key="saver"
+        android:summary="dim screen to save battery"
+        android:title="Saver mode" />
+
+    <RingtonePreference
+        android:key="ringtone"
+        android:showDefault="true"
+        android:title="set ringtone"
+        android:summary="set ringtone to selected sound" />
+
+</PreferenceScreen>
